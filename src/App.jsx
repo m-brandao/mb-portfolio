@@ -4,6 +4,7 @@ import mugshotPicture from './assets/images/foto-MB.jpg'
 import Project from './components/project/Project'
 import Socials from './components/socials/Socials'
 import ToolsListing from './components/toolsListing/ToolsListing'
+import Footer from './components/footer/Footer'
 
 function App() {
 
@@ -27,7 +28,7 @@ function App() {
           <main className='pt-24 lg:w-1/2 lg:py-24'>
             <section id='about-me' className='mb-16 text-lg font-light scroll-mt-16 md:mb-15 lg:mb-20 lg:scroll-mt-24 dark:text-slate-200'>
               <p className='mb-4'>Welcome! I started my professional journey at 17, and since 2017, I've excelled in three roles. With a background in web development and marketing, I merge technical skills with creative strategies.</p>
-              <p className='mb-4'>I've crafted impactful web solutions, exceeding client expectations. Noteworthy projects include [mention specific achievements]. I'm known for my problem-solving abilities and dedication to teamwork.</p>
+              <p className='mb-4'>I've crafted impactful web solutions, exceeding client expectations. Noteworthy projects include <a className='hover:text-teal-600 hover:underline font-bold' href="https://sustentabilidade.negocios.pt/" target='_blank' rel='noopener'>Prémio Nacional de Sustentabilidade</a>, <a className='hover:text-teal-600 hover:underline font-bold' href="https://www.tranquilidadepme.com/" target='_blank' rel='noopener'>Tranquilidade PME</a>, <a className='hover:text-teal-600 hover:underline font-bold' href="https://alticecorporatepadelleague.negocios.pt/" target='_blank' rel='noopener'>Altice Corporate Padel League</a>, <a className='hover:text-teal-600 hover:underline font-bold' href="https://premiosexportacaoeinternacionalizacao.negocios.pt/" target='_blank' rel='noopener'>Prémio Exportação e Internacionalização</a> and <a className='hover:text-teal-600 hover:underline font-bold' href="http://mediportela.pt/" target='_blank' rel='noopener'>Mediportela</a>. I'm known for my problem-solving abilities and dedication to teamwork.</p>
               <p className='mb-4'>I'm driven to advance, tackle more pivotal roles, and stay at the forefront of active projects. My dedication and teamwork skills continue to be my driving force.</p>
             </section>
 
@@ -43,6 +44,7 @@ function App() {
 
         </div>
       </section>
+      <Footer />
     </section>
   )
 }
