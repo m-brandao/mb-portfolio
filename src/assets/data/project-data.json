@@ -1,0 +1,28 @@
+{
+    "projects" : [
+        {
+            "id": "present",
+            "date": "2023-Present",
+            "role": "Wordpress Developer",
+            "company": "Feedzai",
+            "description": "Consequat commodo fugiat minim mollit ipsum eiusmod ex commodo eu ut laborum aliqua nostrud. Pariatur labore deserunt eu velit tempor. Do qui irure ad elit anim eu magna culpa. Id in sint sunt sunt proident aliqua officia velit anim. Et dolore quis aliqua laboris minim occaecat mollit. Laboris elit laboris proident enim nisi.",
+            "programs": ["Wordpress","JavaScript","Git","GitHub","Hubspot","HTML","CSS","SASS"]
+        },
+        {
+            "id": "cofina",
+            "date": "2019-2022",
+            "role": "Web Developer",
+            "company": "Cofina Media",
+            "description": "Consequat commodo fugiat minim mollit ipsum eiusmod ex commodo eu ut laborum aliqua nostrud. Pariatur labore deserunt eu velit tempor. Do qui irure ad elit anim eu magna culpa. Id in sint sunt sunt proident aliqua officia velit anim. Et dolore quis aliqua laboris minim occaecat mollit. Laboris elit laboris proident enim nisi.",
+            "programs": ["Wordpress","JavaScript","Git","GitHub","SalesForce","HTML","CSS", "POEdit"]
+        },
+        {
+            "id": "savills",
+            "date": "2017-2019",
+            "role": "Intern",
+            "company": "Savills Portugal (Savills Aguirre Newman Portugal)",
+            "description": "Consequat commodo fugiat minim mollit ipsum eiusmod ex commodo eu ut laborum aliqua nostrud. Pariatur labore deserunt eu velit tempor. Do qui irure ad elit anim eu magna culpa. Id in sint sunt sunt proident aliqua officia velit anim. Et dolore quis aliqua laboris minim occaecat mollit. Laboris elit laboris proident enim nisi.",
+            "programs": ["HTML","CSS","Exact Target (Mail Marketing)","inDesign","Photoshop","Illustrator","Ecxel", "Powerpoint"]
+        }
+    ]
+}
