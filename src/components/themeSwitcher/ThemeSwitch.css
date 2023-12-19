@@ -60,11 +60,11 @@ input:checked+.slider:before {
 }
 
 .sun-icon {
-    left: 8px;
+    left: 7px;
 }
 
 .moon-icon {
-    right: 10px;
+    right: 6px;
 }
 
 /* Show the correct icon based on dark mode */

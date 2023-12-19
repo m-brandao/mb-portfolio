@@ -6,6 +6,9 @@ export default {
   ],
   darkMode: 'class', // or 'media' or 'class'
   theme: {
+    container: {
+      center: true,
+    },
     extend: {
       colors: {
         primary: {
