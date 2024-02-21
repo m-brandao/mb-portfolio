@@ -4,7 +4,8 @@ export default function Socials() {
     const themeColor = localStorage.getItem('theme');
     const iconSize = { width: 30, height: 30 }
   return (
-    <section className='flex mt-5 gap-3'>
+    <>
+    <section id="socials" className='flex mt-5 gap-3'>
         {/* Github Icon for dark theme */}
         <div className='hidden dark:flex'>
             <a href='https://github.com/m-brandao/' target='_blank'>
@@ -41,5 +42,7 @@ export default function Socials() {
             </a>
         </div>
     </section>
+    <p className="block text-xs mt-2 dark:text-slate-200">You can contact me through LinkedIn</p>
+    </>
   )
 }

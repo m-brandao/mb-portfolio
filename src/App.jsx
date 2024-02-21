@@ -12,7 +12,7 @@ function App() {
     <section className='bg-white dark:bg-slate-900 mx-auto min-h-screen'>
       <Navbar />
 
-      <section className='mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0'>
+      <section id="about-me" className='mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0'>
         <div className='lg:flex lg:justify-between lg:gap-4'>
 
           <div className='lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24'>
@@ -32,7 +32,7 @@ function App() {
               <p className='mb-4'>I'm driven to advance, tackle more pivotal roles, and stay at the forefront of active projects. My dedication and teamwork skills continue to be my driving force.</p>
             </section>
 
-            <h2 className='text-2xl font-medium dark:text-slate-200'>Projects</h2>
+            <h2 id="projects" className='text-2xl font-medium dark:text-slate-200'>Projects</h2>
             <hr className="mt-5 mb-10 h-0.5 border-t-0 bg-neutral-300 opacity-100 dark:opacity-50" />
             
             <Project id="present" />

@@ -19,9 +19,9 @@ function Navbar() {
                 {/* DESKTOP MENU */}
                 <h3 className='w-3/5 text-sm md:text-xl font-bold text-black dark:text-slate-200 cursor-pointer relative pt-3 max-sm:hidden'>Miguel Brandão <span className='text-sm font-thin'>| Web Developer</span></h3>
                 <div className="flex w-2/5 justify-end gap-5 pr-[1%] max-sm:hidden">
-                    <li className="text-base font-bold text-black dark:text-dark-text hover:bg-slate-300 dark:hover:bg-gray-700 rounded-md px-3 py-2 cursor-pointer relative">About Me</li>
-                    <li className="text-base font-bold text-black dark:text-dark-text hover:bg-slate-300 dark:hover:bg-gray-700 rounded-md px-3 py-2 cursor-pointer relative">Projects</li>
-                    <li className="text-base font-bold text-black dark:text-dark-text hover:bg-slate-300 dark:hover:bg-gray-700 rounded-md px-3 py-2 cursor-pointer relative mr-10">Contacts</li>
+                    <li className="text-base font-bold text-black dark:text-dark-text hover:bg-slate-300 dark:hover:bg-gray-700 rounded-md px-3 py-2 cursor-pointer relative"><a href="#about-me" onClick={handleClick}>About Me</a></li>
+                    <li className="text-base font-bold text-black dark:text-dark-text hover:bg-slate-300 dark:hover:bg-gray-700 rounded-md px-3 py-2 cursor-pointer relative"><a href="#projects" onClick={handleClick}>Projects</a></li>
+                    <li className="text-base font-bold text-black dark:text-dark-text hover:bg-slate-300 dark:hover:bg-gray-700 rounded-md px-3 py-2 cursor-pointer relative mr-10"><a href="#socials" onClick={handleClick}>Contacts</a></li>
                     <li><ThemeSwitch /></li>
                 </div>
 
@@ -43,9 +43,9 @@ function Navbar() {
                         </svg>
                     </button>
                     </li>
-                    <li className="text-3xl font-bold text-black dark:text-dark-text cursor-pointer relative">About Me</li>
-                    <li className="text-3xl font-bold text-black dark:text-dark-text cursor-pointer relative">Projects</li>
-                    <li className="text-3xl font-bold text-black dark:text-dark-text cursor-pointer relative">Contacts</li>
+                    <li className="text-3xl font-bold text-black dark:text-dark-text cursor-pointer relative"><a href="#about-me" onClick={handleClick}>About Me</a></li>
+                    <li className="text-3xl font-bold text-black dark:text-dark-text cursor-pointer relative"><a href="#projects" onClick={handleClick}>Projects</a></li>
+                    <li className="text-3xl font-bold text-black dark:text-dark-text cursor-pointer relative"><a href="#contacts" onClick={handleClick}>Contacts</a></li>
                     <li className='mt-24'><ThemeSwitch /></li>
                 </div>
             </nav>
@@ -54,3 +54,13 @@ function Navbar() {
 }
 
 export default Navbar;
+
+
+const handleClick = (event) => {
+    event.preventDefault();
+    const targetId = event.currentTarget.getAttribute("href").substring(1);
+    const targetElement = document.getElementById(targetId);
+    if (targetElement) {
+        targetElement.scrollIntoView({ behavior: "smooth" });
+    }
+};
