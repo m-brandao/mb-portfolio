@@ -3,12 +3,12 @@
         {
             "id" : "Tools",
             "toolNames" : [
-                ["HTML5", "src/assets/images/html5-main-color.png", "src/assets/images/html5-white.png"],
-                ["CSS", "src/assets/images/css3-main-color.png", "src/assets/images/css3-white.png"],
-                ["PHP", "src/assets/images/php-main-color.png", "src/assets/images/php-white.png"],
-                ["JAVASCRIPT", "src/assets/images/js-main-color.png", "src/assets/images/js-white.png"],
-                ["REACT", "src/assets/images/react-main-color.png", "src/assets/images/react-white.png"],
-                ["WORDPRESS", "src/assets/images/wordpress-main-color.png", "src/assets/images/wordpress-white.png"]
+                ["HTML5", "src/assets/images/html5-main-color.svg", "src/assets/images/html5-white.svg"],
+                ["CSS", "src/assets/images/css3-main-color.svg", "src/assets/images/css3-white.svg"],
+                ["PHP", "src/assets/images/php-main-color.svg", "src/assets/images/php-white.svg"],
+                ["JAVASCRIPT", "src/assets/images/js-main-color.svg", "src/assets/images/js-white.svg"],
+                ["REACT", "src/assets/images/react-main-color.svg", "src/assets/images/react-white.svg"],
+                ["WORDPRESS", "src/assets/images/wordpress-main-color.svg", "src/assets/images/wordpress-white.svg"]
             ]
         }
     ]
