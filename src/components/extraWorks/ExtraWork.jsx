@@ -1,5 +1,7 @@
 import React from 'react'
 import extraProjectData from '../../assets/data/extra-projects.json';
+import mediportelaScreenshot from '../../assets/images/mediportela-screenshot.png';
+import appDespesasScreenshot from '../../assets/images/app-despesas-screenshot.png';
 
 export default function ExtraWork() {
   return (
