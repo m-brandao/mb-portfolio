@@ -17,6 +17,8 @@ import TAILWIND from "../../assets/images/tailwindcss.svg";
 import TAILWINDWhite from "../../assets/images/tailwindcss-white.svg";
 import SASS from "../../assets/images/sass.svg";
 import SASSWhite from "../../assets/images/sass-white.svg";
+import FIREBASE from "../../assets/images/firebase.svg";
+import FIREBASEWhite from "../../assets/images/firebase-white.svg";
 
 
 
@@ -80,6 +82,12 @@ export default function ToolsListing({ id }) {
                     <img className='w-5 h-5 flex dark:hidden' src={WORDPRESS} alt="" />
                     <img className='w-5 h-5 hidden dark:flex' src={WORDPRESSWhite} alt="" />
                     <span className="group-hover:opacity-100 transition-opacity bg-gray-800 px-1 text-sm text-gray-100 rounded-md absolute left-1/2 -translate-x-1/2 translate-y-full opacity-0 m-4 mx-auto">WORDPRESS</span>
+                </div>
+                {/* FIREBASE */}
+                <div className='group flex relative mx-1'>
+                    <img className='w-5 h-5 flex dark:hidden' src={FIREBASE} alt="" />
+                    <img className='w-5 h-5 hidden dark:flex' src={FIREBASEWhite} alt="" />
+                    <span className="group-hover:opacity-100 transition-opacity bg-gray-800 px-1 text-sm text-gray-100 rounded-md absolute left-1/2 -translate-x-1/2 translate-y-full opacity-0 m-4 mx-auto">FIREBASE</span>
                 </div>
             </div>
         </div>
