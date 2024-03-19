@@ -1,10 +1,11 @@
-import './App.css'
+// import './App.css'
 import Navbar from './components/navbar/Navbar'
 import mugshotPicture from './assets/images/foto-MB.jpg'
 import Project from './components/project/Project'
 import Socials from './components/socials/Socials'
 import ToolsListing from './components/toolsListing/ToolsListing'
 import Footer from './components/footer/Footer'
+import ExtraWork from './components/extraWorks/ExtraWork'
 
 function App() {
 
@@ -40,6 +41,11 @@ function App() {
             <Project id="cofina" />
             <hr className="my-10 h-0.5 border-t-0 bg-neutral-300 opacity-100 dark:opacity-50" />
             <Project id="savills" />
+
+
+            <section id='extra-works'>
+              <ExtraWork />
+            </section>
           </main>
 
         </div>

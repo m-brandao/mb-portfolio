@@ -1,0 +1,20 @@
+{
+    "extra-projects" : [
+        {
+            "id": "mediportela",
+            "date": "2023",
+            "name": "Mediportela",
+            "description": "The client needed a website created from scratch, so that workers could insert house advertisements. It is also possible for the end user to contact the company directly when in a home item via a form. Wordpress configured on the server by me. And the design too!",
+            "link": "https://mediportela.pt/?utm_source=website&utm_medium=mb-portfolio&utm_campaign=MBPortfolio&utm_id=19032024",
+            "languages": ["Wordpress","CSS","JQUERY","JavaScript","Server Side","PHP","Design","Figma","GIT","GitHub"]
+        },
+        {
+            "id": "app-despesas",
+            "date": "2024",
+            "name": "App Despesas (Expenses App)",
+            "description": "This idea came up after I noticed that Splitwise was now paid for, so I decided to look for a way to do this completely free, it was then that I discovered Google's Firebase. I had a very fixed idea of ​​using the React framework. I created a database model and created the various components to be able to connect to these tables. And this was the end result.",
+            "link": "https://appdespesasmb.netlify.app/?utm_source=website&utm_medium=mb-portfolio&utm_campaign=MBPortfolio&utm_id=19032024",
+            "languages": ["Firebase (Google Hosting and Database)","React","TailwindCSS", "JavaScript","GIT","GitHub"]
+        }
+    ]
+}

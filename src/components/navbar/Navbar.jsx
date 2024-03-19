@@ -21,6 +21,7 @@ function Navbar() {
                 <div className="flex w-2/5 justify-end gap-5 pr-[1%] max-sm:hidden">
                     <li className="text-base font-bold text-black dark:text-dark-text hover:bg-slate-300 dark:hover:bg-gray-700 rounded-md px-3 py-2 cursor-pointer relative"><a href="#about-me" onClick={handleClick}>About Me</a></li>
                     <li className="text-base font-bold text-black dark:text-dark-text hover:bg-slate-300 dark:hover:bg-gray-700 rounded-md px-3 py-2 cursor-pointer relative"><a href="#projects" onClick={handleClick}>Projects</a></li>
+                    <li className="text-base font-bold text-black dark:text-dark-text hover:bg-slate-300 dark:hover:bg-gray-700 rounded-md px-3 py-2 cursor-pointer relative"><a href="#extra-works" onClick={handleClick}>Extra Projects</a></li>
                     <li className="text-base font-bold text-black dark:text-dark-text hover:bg-slate-300 dark:hover:bg-gray-700 rounded-md px-3 py-2 cursor-pointer relative mr-10"><a href="#socials" onClick={handleClick}>Contacts</a></li>
                     <li><ThemeSwitch /></li>
                 </div>
@@ -45,6 +46,7 @@ function Navbar() {
                     </li>
                     <li className="text-3xl font-bold text-black dark:text-dark-text cursor-pointer relative"><a href="#about-me" onClick={handleClick}>About Me</a></li>
                     <li className="text-3xl font-bold text-black dark:text-dark-text cursor-pointer relative"><a href="#projects" onClick={handleClick}>Projects</a></li>
+                    <li className="text-base font-bold text-black dark:text-dark-text hover:bg-slate-300 dark:hover:bg-gray-700 rounded-md px-3 py-2 cursor-pointer relative"><a href="#extra-works" onClick={handleClick}>Extra Projects</a></li>
                     <li className="text-3xl font-bold text-black dark:text-dark-text cursor-pointer relative"><a href="#contacts" onClick={handleClick}>Contacts</a></li>
                     <li className='mt-24'><ThemeSwitch /></li>
                 </div>

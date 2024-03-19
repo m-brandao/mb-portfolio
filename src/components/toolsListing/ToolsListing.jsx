@@ -13,6 +13,10 @@ import REACT from "../../assets/images/react-main-color.svg";
 import REACTWhite from "../../assets/images/react-white.svg";
 import WORDPRESS from "../../assets/images/wordpress-main-color.svg";
 import WORDPRESSWhite from "../../assets/images/wordpress-white.svg";
+import TAILWIND from "../../assets/images/tailwindcss.svg";
+import TAILWINDWhite from "../../assets/images/tailwindcss-white.svg";
+import SASS from "../../assets/images/sass.svg";
+import SASSWhite from "../../assets/images/sass-white.svg";
 
 
 
@@ -24,30 +28,11 @@ export default function ToolsListing({ id }) {
     const { toolNames } = tool;
 
   return (
-    // <section id='tools' className='mt-10'>
-    //     <div>
-    //         <h3 className='dark:text-slate-200'>Programming Knowledge</h3>
-    //         <ul className='mt-2 flex flex-wrap'>
-    //             {toolNames.map( item => (
-    //                 <li className='mr-1.5 mt-2' key={item}>
-
-    //                     <div className="group flex relative">
-
-    //                         <img className={item[0] !== 'PHP' ? 'w-5 h-5 flex dark:hidden' : 'w-7 h-7 flex dark:hidden'} src="../../assets/images/css3-main-color.png" alt="" />
-    //                         {/* <img className={item[0] !== 'PHP' ? 'w-5 h-5 flex dark:hidden' : 'w-7 h-7 flex dark:hidden'} src={item[1]} alt="" />
-    //                         <img className={item[0] !== 'PHP' ? 'w-5 h-5 hidden dark:flex' : 'w-7 h-7 hidden dark:flex'} src={item[2]} alt="" /> */}
-    //                         <span className="group-hover:opacity-100 transition-opacity bg-gray-800 px-1 text-sm text-gray-100 rounded-md absolute left-1/2 -translate-x-1/2 translate-y-full opacity-0 m-4 mx-auto">{item[0]}</span>
-    //                     </div>
-    //                 </li>
-    //             ))}
-    //         </ul>
-    //     </div>
-    // </section>
 
     <section id="tools" className="mt-10">
         <div>
             <h3 className='dark:text-slate-200'>Programming Knowledge</h3>
-            <div className='mt-2 flex flex-wrap'>
+            <div className='mt-2 flex items-center flex-wrap'>
                 {/* HTML5 */}
                 <div className='group flex relative mx-1'>
                     <img className='w-5 h-5 flex dark:hidden' src={HTML5} alt="" />
@@ -59,6 +44,18 @@ export default function ToolsListing({ id }) {
                     <img className='w-5 h-5 flex dark:hidden' src={CSS} alt="" />
                     <img className='w-5 h-5 hidden dark:flex' src={CSSWhite} alt="" />
                     <span className="group-hover:opacity-100 transition-opacity bg-gray-800 px-1 text-sm text-gray-100 rounded-md absolute left-1/2 -translate-x-1/2 translate-y-full opacity-0 m-4 mx-auto">CSS</span>
+                </div>
+                {/* TAILWIND CSS */}
+                <div className='group flex relative mx-1'>
+                    <img className='w-5 h-5 flex dark:hidden' src={TAILWIND} alt="" />
+                    <img className='w-5 h-5 hidden dark:flex' src={TAILWINDWhite} alt="" />
+                    <span className="group-hover:opacity-100 transition-opacity bg-gray-800 px-1 text-sm text-gray-100 rounded-md absolute left-1/2 -translate-x-1/2 translate-y-full opacity-0 m-4 mx-auto">Tailwind</span>
+                </div>
+                {/* SASS */}
+                <div className='group flex relative mx-1'>
+                    <img className='w-5 h-5 flex dark:hidden' src={SASS} alt="" />
+                    <img className='w-5 h-5 hidden dark:flex' src={SASSWhite} alt="" />
+                    <span className="group-hover:opacity-100 transition-opacity bg-gray-800 px-1 text-sm text-gray-100 rounded-md absolute left-1/2 -translate-x-1/2 translate-y-full opacity-0 m-4 mx-auto">SASS</span>
                 </div>
                 {/* PHP */}
                 <div className='group flex relative mx-1'>
