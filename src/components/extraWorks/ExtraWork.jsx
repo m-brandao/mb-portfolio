@@ -11,7 +11,17 @@ export default function ExtraWork() {
         {extraProjectData['extra-projects'].map((project) => (
           <>
           <article id={`${project.id}`}>
-            <h5 className='inline-flex items-baseline font-medium leading-tight dark:text-slate-200 focus-visible:text-teal-300 group/link text-2xl'><a href={`${project.link}`}>{project.name}</a></h5>
+            <div className='flex justify-between items-center'>
+              <h5 className='inline-flex items-baseline font-medium leading-tight dark:text-slate-200 focus-visible:text-teal-300 group/link text-lg lg:text-2xl'><a href={`${project.link}`}>{project.name}</a></h5>
+              <div className="group cursor-pointer flex items-center bg-dark-background dark:bg-slate-400 text-white dark:text-black font-bold py-1 px-2 lg:py-2 lg:px-4 rounded-full">
+                <a className='text-xs' href={`${project.link}`}>
+                  Visit 
+                </a>
+                <svg className="ml-1 mt-0.5 w-3 h-auto lg:w-4 hidden md:block rotate-180 transition duration-300 ease-in transform group-hover:translate-x-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                  <path fillRule="evenodd" d="M8.293 6.293a1 1 0 011.414 1.414L7.414 11H16a1 1 0 110 2H7.414l2.293 2.293a1 1 0 11-1.414 1.414l-4-4a1 1 0 010-1.414l4-4z" clipRule="evenodd" />
+                </svg>
+              </div>
+            </div>
             <p className='mt-2 text-sm leading-normal dark:text-slate-500'>{project.description}</p>
             {project.link && (
               <a href={project.link} target="_blank">
