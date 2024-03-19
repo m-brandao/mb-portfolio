@@ -13,7 +13,15 @@ export default function ExtraWork() {
           <article id={`${project.id}`}>
             <h5 className='inline-flex items-baseline font-medium leading-tight dark:text-slate-200 focus-visible:text-teal-300 group/link text-2xl'><a href={`${project.link}`}>{project.name}</a></h5>
             <p className='mt-2 text-sm leading-normal dark:text-slate-500'>{project.description}</p>
-            {project.link && (<a href={project.link} target="_blank"><img className="mt-2 rounded-lg shadow-md" src={`./src/assets/images/${project.id}-screenshot.png`} alt={project.name} /></a>)}
+            {project.link && (
+              <a href={project.link} target="_blank">
+                {project.id === 'mediportela' ? (
+                  <img className="mt-2 rounded-lg shadow-md" src={mediportelaScreenshot} alt={project.name} />
+                ) : (
+                  <img className="mt-2 rounded-lg shadow-md" src={appDespesasScreenshot} alt={project.name} />
+                )}
+              </a>
+            )}
             <ul className='mt-2 flex flex-wrap'>
               {project.languages.map((language) => (
                 <li className='mr-1.5 mt-2' key={language}>
