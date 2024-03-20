@@ -17,8 +17,8 @@ function Navbar() {
         <>
             <nav className="nav flex bg-slate-100 shadow-lg dark:bg-slate-950 dark:dark-mode-shadow sticky top-0 mx-auto p-5 z-50">
                 {/* DESKTOP MENU */}
-                <h3 className='w-3/5 text-sm md:text-xl font-bold text-black dark:text-slate-200 cursor-pointer relative pt-3 max-sm:hidden'>Miguel Brandão <span className='text-sm font-thin'>| Web Developer</span></h3>
-                <div className="flex w-2/5 justify-end gap-5 pr-[1%] max-sm:hidden">
+                <h3 className='w-2/6 text-sm md:text-xl font-bold text-black dark:text-slate-200 cursor-pointer relative pt-3 max-sm:hidden'>Miguel Brandão <span className='text-sm font-thin'>| Web Developer</span></h3>
+                <div className="flex w-4/6 justify-end gap-5 pr-[1%] max-sm:hidden">
                     <li className="text-base font-bold text-black dark:text-dark-text hover:bg-slate-300 dark:hover:bg-gray-700 rounded-md px-3 py-2 cursor-pointer relative"><a href="#about-me" onClick={handleClick}>About Me</a></li>
                     <li className="text-base font-bold text-black dark:text-dark-text hover:bg-slate-300 dark:hover:bg-gray-700 rounded-md px-3 py-2 cursor-pointer relative"><a href="#projects" onClick={handleClick}>Projects</a></li>
                     <li className="text-base font-bold text-black dark:text-dark-text hover:bg-slate-300 dark:hover:bg-gray-700 rounded-md px-3 py-2 cursor-pointer relative"><a href="#extra-works" onClick={handleClick}>Extra Projects</a></li>
