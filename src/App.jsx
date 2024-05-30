@@ -1,17 +1,22 @@
 // import './App.css'
-import Navbar from './components/navbar/Navbar'
+import { lazy, Suspense } from 'react';
+
+const Navbar = lazy(() => import('./components/navbar/Navbar.jsx'));
+const Project = lazy(() => import('./components/project/Project.jsx'));
+const Socials = lazy(() => import('./components/socials/Socials.jsx'));
+const ToolsListing = lazy(() => import('./components/toolsListing/ToolsListing.jsx'));
+const Footer = lazy(() => import('./components/footer/Footer.jsx'));
+const ExtraWork = lazy(() => import('./components/extraWorks/ExtraWork.jsx'));
+
 import mugshotPicture from './assets/images/foto-MB.jpg'
-import Project from './components/project/Project'
-import Socials from './components/socials/Socials'
-import ToolsListing from './components/toolsListing/ToolsListing'
-import Footer from './components/footer/Footer'
-import ExtraWork from './components/extraWorks/ExtraWork'
 
 function App() {
 
   return (
     <section className='bg-white dark:bg-slate-900 mx-auto min-h-screen'>
-      <Navbar />
+      <Suspense fallback="Loading...">
+        <Navbar />
+      </Suspense>
 
       <section id="about-me" className='mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0'>
         <div className='lg:flex lg:justify-between lg:gap-4'>
@@ -21,8 +26,13 @@ function App() {
               <img className='h-60 w-60 transition-all duration-300 rounded-full border-solid border-black dark:border-white border-4 flex-none bg-gray-50' src={mugshotPicture} alt="Miguel Brandão pic" />
               <h1 className='text-4xl font-bold tracking-tight dark:text-slate-200 sm:text-5xl mt-5'>Miguel Brandão</h1>
               <h2 className='text-lg font-medium tracking-tight dark:text-slate-200 sm:text-xl'>Web Developer from Portugal</h2>
-              <Socials />
-              <ToolsListing id="Tools" />
+              <Suspense fallback="Loading...">
+                <Socials />
+              </Suspense>
+
+              <Suspense fallback="Loading...">
+                <ToolsListing id="Tools" />
+              </Suspense>
             </div>
           </div>
 
@@ -36,21 +46,26 @@ function App() {
             <h2 id="projects" className='text-2xl font-medium dark:text-slate-200'>Projects</h2>
             <hr className="mt-5 mb-10 h-0.5 border-t-0 bg-neutral-300 opacity-100 dark:opacity-50" />
             
-            <Project id="present" />
-            <hr className="my-10 h-0.5 border-t-0 bg-neutral-300 opacity-100 dark:opacity-50" />
-            <Project id="cofina" />
-            <hr className="my-10 h-0.5 border-t-0 bg-neutral-300 opacity-100 dark:opacity-50" />
-            <Project id="savills" />
+            <Suspense fallback="Loading...">
+              <Project id="present" />
+              <hr className="my-10 h-0.5 border-t-0 bg-neutral-300 opacity-100 dark:opacity-50" />
+              <Project id="cofina" />
+              <hr className="my-10 h-0.5 border-t-0 bg-neutral-300 opacity-100 dark:opacity-50" />
+              <Project id="savills" />
+            </Suspense>
 
-
-            <section id='extra-works'>
-              <ExtraWork />
-            </section>
+            <Suspense fallback="Loading...">
+              <section id='extra-works'>
+                <ExtraWork />
+              </section>
+            </Suspense>
           </main>
 
         </div>
       </section>
-      <Footer />
+      <Suspense fallback="Loading...">
+        <Footer />
+      </Suspense>
     </section>
   )
 }

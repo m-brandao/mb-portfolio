@@ -14,7 +14,15 @@ export default function Project({ id }) {
             <ul className='mt-2 flex flex-wrap'>
                 {programs.map(item => (
                     <li className='mr-1.5 mt-2' key={item}>
-                        <div className='flex items-center rounded-full bg-dark-background dark:bg-teal-100/10 px-3 py-1 text-xs font-medium leading-5 text-slate-100'>{item}</div>
+                        <div className='flex items-center rounded-full bg-dark-background dark:bg-teal-100/10 px-3 py-1 text-xs font-medium leading-5 text-slate-100'>
+                            {Array.isArray(item) ? (
+                                <>
+                                    {item[0]} <span className='ml-1 text-gray-400'>({item[1]})</span>
+                                </>
+                            ) : (
+                                item
+                            )}
+                        </div>
                     </li>
                 ))}
             </ul>

@@ -12,9 +12,9 @@
             "id": "cofina",
             "date": "2019-2022",
             "role": "Web Developer",
-            "company": "Cofina Media",
-            "description": "Wordpress Development - Create from scratch custom templates and drag and drop templates. Needed to mantain several websites at once. E-mail Marketing devlopment, responsible for having. Broadcast with OBS for Youtube, Facebook, etc. Website design with Adobe XD",
-            "programs": ["Wordpress","JavaScript","Git","GitHub","SalesForce (email mkt)","HTML","CSS", "POEdit", "MJML"]
+            "company": "Cofina Media (Now Medialivre)",
+            "description": "I worked on the creation of websites for the company's events, using WordPress and other tools. I worked on several WordPress development projects, creating custom templates from the ground up and in other projects with drag and drop themes. I managed several websites at once, ensuring smooth running and maintenance. I co-ordinated email marketing campaigns and scheduled the email sending times and filter contacts. I used OBS to enable live streaming to sites like YouTube, Facebook and LinkedIn, for numerous events. I designed and built interfaces using Adobe XD, implementing creative solutions for websites using assets provided by collaborating design agencies",
+            "programs": ["Wordpress","JavaScript","Git","GitHub",["SalesForce", "email mkt"],"HTML","CSS", "POEdit", ["MJML", "email framework"], "Looker Studio"]
         },
         {
             "id": "savills",
@@ -22,7 +22,7 @@
             "role": "Intern",
             "company": "Savills Portugal (Savills Aguirre Newman Portugal)",
             "description": "Marketing and Advertising - creation of designs for the company's property screens and advertisements for media using Illustrator and InDesign. Creation of microsites for properties using Dreamweaver (HTML5 and CSS3). ExactTarget (Assembly and analysis) - the company's email marketing platform. Proposals in InDesign - for the sale and lease of properties. Capturing images at corporate events.",
-            "programs": ["HTML","CSS","Exact Target (Mail Marketing)","inDesign","Photoshop","Illustrator","Ecxel", "Powerpoint"]
+            "programs": ["HTML","CSS",["Exact Target", "email mkt"],"inDesign","Photoshop","Illustrator","Ecxel", "Powerpoint"]
         }
     ]
 }
