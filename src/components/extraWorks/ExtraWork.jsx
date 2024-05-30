@@ -9,10 +9,13 @@ export default function ExtraWork() {
         <h2 className='text-2xl font-medium dark:text-slate-200'>Extra Projects</h2>
         <hr className="mt-5 mb-10 h-0.5 border-t-0 bg-neutral-300 opacity-100 dark:opacity-50" />
         {extraProjectData['extra-projects'].map((project) => (
-          <>
-          <article id={`${project.id}`}>
+          <article id={`${project.id}`} key={project.id}>
             <div className='flex justify-between items-center'>
-              <h5 className='inline-flex items-baseline font-medium leading-tight dark:text-slate-200 focus-visible:text-teal-300 group/link text-lg lg:text-2xl'><a href={`${project.link}`}>{project.name}</a></h5>
+              <h5 className='inline-flex items-baseline font-medium leading-tight dark:text-slate-200 focus-visible:text-teal-300 group/link text-lg lg:text-2xl'>
+                <a href={`${project.link}`}>
+                  {project.name}
+                </a>
+              </h5>
               <div className="group cursor-pointer flex items-center bg-dark-background dark:bg-slate-400 text-white dark:text-black font-bold py-1 px-2 lg:py-2 lg:px-4 rounded-full">
                 <a className='text-xs' href={`${project.link}`}>
                   Visit 
@@ -26,9 +29,9 @@ export default function ExtraWork() {
             {project.link && (
               <a href={project.link} target="_blank">
                 {project.id === 'mediportela' ? (
-                  <img className="mt-2 rounded-lg shadow-md" src={mediportelaScreenshot} alt={project.name} />
+                  <img className="mt-2 rounded-lg shadow-md" src={mediportelaScreenshot} alt={project.name} loading='lazy' />
                 ) : (
-                  <img className="mt-2 rounded-lg shadow-md" src={appDespesasScreenshot} alt={project.name} />
+                  <img className="mt-2 rounded-lg shadow-md" src={appDespesasScreenshot} alt={project.name} loading='lazy'/>
                 )}
               </a>
             )}
@@ -39,9 +42,8 @@ export default function ExtraWork() {
                 </li>
               ))}
             </ul>
-          </article>
           <hr className="my-10 h-0.5 border-t-0 bg-neutral-300 opacity-100 dark:opacity-50" />
-          </>
+          </article>
         ))}
       </section>
   );
