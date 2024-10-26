@@ -15,6 +15,14 @@
             "description": "This idea came up after I noticed that Splitwise was now paid for, so I decided to look for a way to do this completely free, it was then that I discovered Google's Firebase. I had a very fixed idea of ​​using the React framework. I created a database model and created the various components to be able to connect to these tables. And this was the end result.",
             "link": "https://appdespesasmb.netlify.app/?utm_source=website&utm_medium=mb-portfolio&utm_campaign=MBPortfolio&utm_id=19032024",
             "languages": ["Firebase (Google Hosting and Database)","React","TailwindCSS", "JavaScript","GIT","GitHub"]
+        },
+        {
+            "id": "to-do-app",
+            "date": "2024",
+            "name": "To Do List",
+            "description": "A streamlined to-do list app developed from scratch, showcasing proficiency in React and integrating Recoil for efficient state management. Built with Vite and styled using Tailwind CSS for a modern, responsive design.",
+            "link": "https://to-do-list-m-brandao.netlify.app/?utm_source=website&utm_medium=mb-portfolio&utm_campaign=MBPortfolio&utm_id=26102024",
+            "languages": ["React","Recoil","TailwindCSS", "JavaScript","GIT","GitHub","Vite"]
         }
     ]
 }

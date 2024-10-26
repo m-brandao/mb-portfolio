@@ -21,6 +21,8 @@ import FIREBASE from "../../assets/images/firebase.svg";
 import FIREBASEWhite from "../../assets/images/firebase-white.svg";
 import MJML from "../../assets/images/mjml.svg";
 import MJMLWhite from "../../assets/images/mjml-white.svg";
+import RECOIL from "../../assets/images/recoil.svg";
+import RECOILWhite from "../../assets/images/recoil-white.svg";
 
 
 
@@ -96,6 +98,12 @@ export default function ToolsListing({ id }) {
                     <img className='w-5 h-5 flex dark:hidden' src={MJML} alt="" />
                     <img className='w-5 h-5 hidden dark:flex' src={MJMLWhite} alt="" />
                     <span className="group-hover:opacity-100 transition-opacity bg-gray-800 px-1 text-sm text-gray-100 rounded-md absolute left-1/2 -translate-x-1/2 translate-y-full opacity-0 m-4 mx-auto">MJML</span>
+                </div>
+                {/* RECOIL */}
+                <div className='group flex relative mx-1'>
+                    <img className='w-5 h-5 flex dark:hidden' src={RECOIL} alt="" />
+                    <img className='w-5 h-5 hidden dark:flex' src={RECOILWhite} alt="" />
+                    <span className="group-hover:opacity-100 transition-opacity bg-gray-800 px-1 text-sm text-gray-100 rounded-md absolute left-1/2 -translate-x-1/2 translate-y-full opacity-0 m-4 mx-auto">Recoil</span>
                 </div>
             </div>
         </div>

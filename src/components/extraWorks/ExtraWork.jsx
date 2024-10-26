@@ -1,7 +1,5 @@
 import React from 'react'
 import extraProjectData from '../../assets/data/extra-projects.json';
-import mediportelaScreenshot from '../../assets/images/mediportela-screenshot.png';
-import appDespesasScreenshot from '../../assets/images/app-despesas-screenshot.png';
 
 export default function ExtraWork() {
   return (
@@ -27,12 +25,8 @@ export default function ExtraWork() {
             </div>
             <p className='mt-2 text-sm leading-normal dark:text-slate-500'>{project.description}</p>
             {project.link && (
-              <a href={project.link} target="_blank">
-                {project.id === 'mediportela' ? (
-                  <img className="mt-2 rounded-lg shadow-md" src={mediportelaScreenshot} alt={project.name} loading='lazy' />
-                ) : (
-                  <img className="mt-2 rounded-lg shadow-md" src={appDespesasScreenshot} alt={project.name} loading='lazy'/>
-                )}
+              <a href={project.link} target="_blank" rel="noopener noreferrer">
+                  <img className="mt-2 rounded-lg shadow-md" src={`${project.id}-screenshot.png`} alt={project.name} loading='lazy' />
               </a>
             )}
             <ul className='mt-2 flex flex-wrap'>
