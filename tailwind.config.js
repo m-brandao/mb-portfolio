@@ -21,9 +21,6 @@ export default {
           light: '#fff06a',
           dark: '#e5cc2a',
         },
-        certBg:{
-          DEFAULT: '#020A0D'
-        },
         dark: {
           primary: {
             light: '#637c9a',
