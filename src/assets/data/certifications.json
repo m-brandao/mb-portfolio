@@ -1,0 +1,88 @@
+{
+  "certifications": [
+    {
+      "title": "Advanced React",
+      "issuer": "Meta",
+      "issueDate": "June 2024",
+      "credentialID": "T3GDBNR6VBJJ",
+      "credentialURL": "https://www.coursera.org/account/accomplishments/records/T3GDBNR6VBJJ"
+    },
+    {
+      "title": "React Basis",
+      "issuer": "Meta",
+      "issueDate": "May 2024",
+      "credentialID": "U6FJXQXZZHYX",
+      "credentialURL": "https://www.coursera.org/account/accomplishments/records/U6FJXQXZZHYX"
+    },
+    {
+      "title": "Front-End Developer Capstone",
+      "issuer": "Meta",
+      "issueDate": "June 2024",
+      "credentialID": "DA2KCZMAYNZN",
+      "credentialURL": "https://www.coursera.org/account/accomplishments/records/DA2KCZMAYNZN"
+    },
+    {
+      "title": "HTML and CSS in Depth",
+      "issuer": "Meta",
+      "issueDate": "May 2024",
+      "credentialID": "585LCFNVJJ9T",
+      "credentialURL": "https://www.coursera.org/account/accomplishments/records/585LCFNVJJ9T"
+    },
+    {
+      "title": "Programming with JavaScript",
+      "issuer": "Meta",
+      "issueDate": "May 2024",
+      "credentialID": "W784JGWUJLVQ",
+      "credentialURL": "https://www.coursera.org/account/accomplishments/records/W784JGWUJLVQ"
+    },
+    {
+      "title": "TypeScript",
+      "issuer": "Codecademy",
+      "issueDate": "May 2024",
+      "credentialID": "",
+      "credentialURL": "https://www.codecademy.com/profiles/MiguelBrandao/certificates/56fb1e71303e37b643bb1905f31c8a09"
+    },
+    {
+      "title": "Version Control",
+      "issuer": "Meta",
+      "issueDate": "May 2024",
+      "credentialID": "QCDG8T32QTYW",
+      "credentialURL": "https://www.coursera.org/account/accomplishments/records/QCDG8T32QTYW"
+    },
+    {
+      "title": "Python 3 - Loop Structures",
+      "issuer": "Curso em Video",
+      "issueDate": "April 2024",
+      "credentialID": "6D04-67AC-4",
+      "credentialURL": "https://www.cursoemvideo.com/validacao-de-certificado/?codigo=E6D04-66E2-7"
+    },
+    {
+      "title": "Python 3 - Python Fundamentals",
+      "issuer": "Curso em Video",
+      "issueDate": "March 2024",
+      "credentialID": "6D04-66E2-7",
+      "credentialURL": "https://www.cursoemvideo.com/validacao-de-certificado/?codigo=E6D04-66E2-7"
+    },
+    {
+      "title": "CSS: Pré Processadores em CSS com SASS",
+      "issuer": "Affinity",
+      "issueDate": "February 2023",
+      "credentialID": "",
+      "credentialURL": "https://drive.google.com/file/d/16vpUyRCHRfrdkO2OVK0tg3Q5tNZyQqWM/view?usp=share_link"
+    },
+    {
+      "title": "HTML: Good Practices, Semantic HTML & new 'input types'",
+      "issuer": "Affinity",
+      "issueDate": "February 2023",
+      "credentialID": "",
+      "credentialURL": "https://drive.google.com/file/d/1JWdWRLVZNulJHjnbue_299xJ7EZLUmfq/view?usp=share_link"
+    },
+    {
+      "title": "JavaScript Course",
+      "issuer": "Codecademy",
+      "issueDate": "December 2022",
+      "credentialID": "",
+      "credentialURL": "https://www.codecademy.com/profiles/MiguelBrandao/certificates/705dcb15de0da4dd9d9fc4f3274b430e"
+    }
+  ]
+}
