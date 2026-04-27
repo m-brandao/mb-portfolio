@@ -1,6 +1,22 @@
 {
     "extra-projects" : [
         {
+            "id": "hizeroportugal",
+            "date": "2026",
+            "name": "Hizero Portugal",
+            "description": "Led the design and development of the Hizero Portugal website, combining UI/UX work in Figma with a custom WordPress implementation. Extended core functionality through PHP and JavaScript, and optimized frontend performance using SASS, Bootstrap, and asset pipelines with Gulp. Version control and collaboration managed via Git and GitHub.",
+            "link": "https://hizeroportugal.pt/?utm_source=website&utm_medium=mb-portfolio&utm_campaign=MBPortfolio&utm_id=19032024",
+            "languages": ["Wordpress","CSS", "SASS","JQUERY","JavaScript","PHP","Figma","GIT","GitHub", "Bootstrap", "Gulp"]
+        },
+        {
+            "id": "martaenuno",
+            "date": "2025",
+            "name": "Marta e Nuno Wedding Website",
+            "description": "End-to-end creation of a modern, responsive wedding website for Marta and Nuno, from UI/UX design (with some inputs from the client) to development in Next.js. The platform includes a real-time RSVP system powered by Supabase and is optimized for performance through deployment on Vercel.",
+            "link": "https://v0-marta-wedding-w-git-7e06d1-miguel-brandaos-projects-622909eb.vercel.app/?utm_source=website&utm_medium=mb-portfolio&utm_campaign=MBPortfolio&utm_id=19032024",
+            "languages": ["next.js","TailwindCSS", "JavaScript","Supabase (Database)","Vercel (Hosting)","GIT","GitHub","Figma"]
+        },
+        {
             "id": "mediportela",
             "date": "2023",
             "name": "Mediportela",

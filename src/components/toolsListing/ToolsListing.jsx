@@ -23,6 +23,8 @@ import MJML from "../../assets/images/mjml.svg";
 import MJMLWhite from "../../assets/images/mjml-white.svg";
 import RECOIL from "../../assets/images/recoil.svg";
 import RECOILWhite from "../../assets/images/recoil-white.svg";
+import NEXTJS from "../../assets/images/nextjs-main-color.svg";
+import NEXTJSWhite from "../../assets/images/nextjs-white.svg";
 
 
 
@@ -80,6 +82,12 @@ export default function ToolsListing({ id }) {
                     <img className='w-5 h-5 flex dark:hidden' src={REACT} alt="React.js icon" />
                     <img className='w-5 h-5 hidden dark:flex' src={REACTWhite} alt="React.js icon" />
                     <span className="group-hover:opacity-100 transition-opacity bg-gray-800 px-1 text-sm text-gray-100 rounded-md absolute left-1/2 -translate-x-1/2 translate-y-full opacity-0 m-4 mx-auto">REACT</span>
+                </div>
+                {/* NEXT.JS */}
+                <div className='group flex relative mx-1'>
+                    <img className='w-5 h-5 flex dark:hidden' src={NEXTJS} alt="" />
+                    <img className='w-5 h-5 hidden dark:flex' src={NEXTJSWhite} alt="" />
+                    <span className="group-hover:opacity-100 transition-opacity bg-gray-800 px-1 text-sm text-gray-100 rounded-md absolute left-1/2 -translate-x-1/2 translate-y-full opacity-0 m-4 mx-auto">Next.js</span>
                 </div>
                 {/* WORDPRESS */}
                 <div className='group flex relative mx-1'>

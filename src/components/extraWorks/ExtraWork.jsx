@@ -15,7 +15,7 @@ export default function ExtraWork() {
                 </a>
               </h5>
               <div className="group cursor-pointer flex items-center bg-dark-background dark:bg-slate-400 text-white dark:text-black font-bold py-1 px-2 lg:py-2 lg:px-4 rounded-full">
-                <a className='text-xs' href={`${project.link}`}>
+                <a className='text-xs' href={`${project.link}`} target="_blank">
                   Visit 
                 </a>
                 <svg className="ml-1 mt-0.5 w-3 h-auto lg:w-4 hidden md:block rotate-180 transition duration-300 ease-in transform group-hover:translate-x-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
@@ -25,7 +25,7 @@ export default function ExtraWork() {
             </div>
             <p className='mt-2 text-sm leading-normal dark:text-slate-500'>{project.description}</p>
             {project.link && (
-              <a href={project.link} target="_blank" rel="noopener noreferrer">
+              <a href={project.link} target="_blank">
                   <img className="mt-2 rounded-lg shadow-md" src={`${project.id}-screenshot.png`} alt={project.name} loading='lazy' />
               </a>
             )}
